@@ -1,3 +1,19 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+   path: /
+   controller: App\Controller\accueil::accueilView
+
+single:
+   path: /article
+   controller: App\Controller\article::articleView
+
+admin:
+   path: /admin
+   controller: App\Controller\admin::adminView
+
+adminArticle:
+  path: /admin/article
+  controller: App\Controller\admin::adminArticleView
+
+adminAddArticle:
+  path: /admin/article/add
+  controller: App\Controller\admin::addArticle
