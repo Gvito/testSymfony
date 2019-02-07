@@ -2,10 +2,6 @@ index:
    path: /
    controller: App\Controller\accueil::accueilView
 
-single:
-   path: /article
-   controller: App\Controller\article::articleView
-
 admin:
    path: /admin
    controller: App\Controller\admin::adminView
