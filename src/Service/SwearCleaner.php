@@ -9,7 +9,7 @@ class SwearCleaner
   const SWEARS = ["merde", "connard", "abruti", "putain", "bordel"];
   const REPLACEMENT = "########";
   public function cleanSwear(Article $article): Article {
-    $article->setContent(str_replace(self::SWEARS, self::REPLACEMENT, $article->getContent()));
+    $article->setContentofarticle(str_replace(self::SWEARS, self::REPLACEMENT, $article->getContentofarticle()));
     return $article;
   }
 }

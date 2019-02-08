@@ -12,7 +12,7 @@
       <p> N de vues : {{ article.numberview }}
       <p> Catégorie : {{ article.nameofcategory|capitalize }}</p>
       <p class="card-text">{{ article.getShortedContent }} ...</p>
-      <a href="{{ path('single_show', {'id': article.id})}}" class="btn btn-primary"> voir </a>
+      <a href="{{ path('singleView', {'id': article.id})}}" class="btn btn-primary"> voir </a>
     </div>
   </div>
   {% endfor %}

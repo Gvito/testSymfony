@@ -1,3 +1,13 @@
 framework:
     router:
         strict_requirements: true
+
+security:
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+        main:
+            anonymous: ~
+            logout:
+                path:   app_logout

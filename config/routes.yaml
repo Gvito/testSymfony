@@ -13,3 +13,6 @@ adminArticle:
 adminAddArticle:
   path: /admin/article/add
   controller: App\Controller\admin::addArticle
+
+app_logout:
+  path: /logout
